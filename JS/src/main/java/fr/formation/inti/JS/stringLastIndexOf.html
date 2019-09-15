@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to locate the last occurrence of a specified value.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var str = "Hello planet earth, you are a great planet.";
+  var n = str.lastIndexOf("planet");
+  document.getElementById("demo").innerHTML = n;
+}
+</script>
+
+</body>
+</html>

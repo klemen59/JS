@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to display the extracted part of the string.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<p><strong>Note:</strong> The repeat() method is not supported in IE 11 (and earlier versions).</p>
+
+<script>
+function myFunction() {
+  var str = "Hello world!";
+  document.getElementById("demo").innerHTML = str.repeat(3);
+}
+</script>
+
+</body>
+</html>

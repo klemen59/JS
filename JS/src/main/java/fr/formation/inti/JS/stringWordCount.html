@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to perfom a global search for the letters "ain" in a string, and display the matches.</p>
+
+<button onclick="WordCount()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+
+function WordCount() { 
+	var str = "The rain in SPAIN stays mainly in the plain";
+ str= str.split(" ").length;
+
+document.getElementById("demo").innerHTML = str;
+}
+
+</script>
+
+</body>
+</html>
